@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+
+h1{
+
+    text-align: center;
+    color: #0E7C9E;
+}
+p {
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+h1{
+    color: #003340;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;   
+}
+
+div {
+
+    text-align: center;
+}
+
+main {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px black;
+    width: 600px;
+    padding: 10px;
+    margin:auto
+}
+
+body {
+    background-image: linear-gradient(to right, #00668073 , #00ccffdc);
+}
+ul {
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    color: #0E7C9E;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #003340;
+    text-decoration: underline;
+}
+
+a::after{
+    content: '[Link]';    
+    color: rgb(110, 108, 108);
+}
+
+.perfil::after{     
+    content: none;
+
+}
