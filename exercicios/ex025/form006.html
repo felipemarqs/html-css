@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            margin: 2em;
+        }
+    </style>
+</head>
+<body>
+    <form action="cadastro.php" method="get" autocomplete="off">    
+        <div>
+            <fieldset>
+                <legend>Input Type Color</legend>        
+                <label for="cor">Cor:</label>
+                <input type="color" name="cor" id="cor">
+            </fieldset>                
+        </div>
+
+        <div>
+            <fieldset>
+                <legend>Input Type Range</legend>
+                <label for="nivel">Nível de Satisfação</label>
+                <input type="range" name="nivel" id="nivel">
+            </fieldset>
+        </div>
+
+        <div>
+            <fieldset>
+                <legend>Input Type File</legend>
+                <label for="foto">Foto do Perfil</label>
+                <input type="file" name="foto" id="foto">
+            </fieldset>
+        </div>
+
+    </form> 
+</body>
+</html>
