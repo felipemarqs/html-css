@@ -11,3 +11,46 @@ html {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
 }
+
+header {
+    margin-bottom: 1.5em;
+    border-bottom: 1px solid gray;
+}
+
+header > h1  {
+    text-align: center;
+}
+
+menu {
+    margin: 1.5em;
+    border: 1px solid #363636;
+    padding: 1.5em;
+    background-color: rgb(182, 182, 182);
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    padding: .5em;
+    border-radius: 1em;
+    background-color: black;
+    color: white;
+}
+
+li:hover{
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    transition: .4s;
+}
+
+article {
+    max-width: 600px;
+    display: block;
+    margin: auto;
+}

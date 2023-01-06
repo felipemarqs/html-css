@@ -21,10 +21,3 @@ article::after {
     content: "Esse artigo foi impresso";
 }
 
-header > h1  {
-    text-align: center;
-}
-
-ul {
-    list-style-type: none;
-}
